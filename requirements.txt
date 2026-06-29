@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+tavily-python
+beautifulsoup4
+requests
+lxml
+python-dotenv
+aiohttp
+pandas
+tiktoken
+rich
+tenacity
+orjson
+pydantic
+html5lib
