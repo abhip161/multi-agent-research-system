@@ -43,5 +43,3 @@ def scrape_url(url : str) -> str:
         return soup.get_text(separator=" ", strip = True)[:3000]
     except Exception as e:
         return f"Error : {str(e)}"
-
-print(scrape_url.invoke("https://news.mit.edu/topic/artificial-intelligence2"))
