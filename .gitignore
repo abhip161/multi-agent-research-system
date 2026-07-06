@@ -8,4 +8,24 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables (secrets)
 .env
+
+# Streamlit
+.streamlit/
+
+# Cache
+.cache/
+
+# Testing & linting
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
